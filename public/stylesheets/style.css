@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #e74c3c;
+    font-family: 'Josefin Sans', Helvetica, sans-serif;;
+    color: white;
+    font-size: 12px;
+}
+
+/* HEADER + NAV */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nav_container {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/* BANNER SECTION */
+
+#background_image {
+    width: 100%;
+    height: 500px;
+}
+
+#digistar_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e74c3c;
+}
+
+#digistar_desc {
+    position: absolute;
+}
+
+#digistar_desc h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#digistar_desc p {
+    font-size: 14px;
+}
+
+/* MES MISSIONS SECTION */
+
+#mission_section {
+    margin: 30px 0 30px 0;
+}
+
+#mission_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: justify;
+}
+
+#mission_section h1 {
+    text-align: center;
+    font-size: 17px;
+}
+
+#mission_child_1, #mission_child_3 {
+    flex-basis: 30%;
+}
+
+#astronaute_img {
+    width: 300px;
+    flex-basis: 30%;
+}
+
+
+/* MES PRODUITS SECTION */
+
+#product_section {
+    background-color: white;
+    width: 100%;
+    color: black;
+    padding: 30px;
+}
+
+#product_section h1 {
+    font-size: 17px;
+}
+
+#product_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding: 30px;
+}
+
+.product_children {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* box-shadow: 4px 4px 4px grey; */
+    padding-left: 20px;
+}
+
+.product_img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.product_text {
+    padding: 20px;
+}
+
+.send_button {
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+#footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 30px 50px 30px;
+    line-height: 2;
+}
+
+#subscribe_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.5;
+}
+
+.subscribe_button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 0 12px 0 12px;
+    text-align: center;
+}
