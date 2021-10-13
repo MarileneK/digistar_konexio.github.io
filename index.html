@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
     <title>DigiStar</title>
 </head>
 
@@ -14,61 +18,79 @@
         <p>DigiStar</p>
         <nav>
             <ul id='nav_container'>
-                <li><a href=''>Accueil</a></li>
-                <li><a href=''>Nos missions</a></li>
-                <li><a href=''>Nos produits</a></li>
-                <li><a href=''>Nous contacter</a></li>
+                <li><a href='#'>Accueil</a></li>
+                <li><a href='#'>Nos missions</a></li>
+                <li><a href='#'>Nos produits</a></li>
+                <li><a href='#'>Nous contacter</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id='digistar_section'>
-        <img src="/public/img/header.jpg" alt="Ciel étoilé" id='background_image'>
-        <div id="digistar_desc">
-            <h1>DigiStar</h1>
-            <p>Viser les étoiles</p>
+    <section>
+        <div id='digistar_section'>
+            <img src="/public/img/header.jpg" alt="Ciel étoilé" id='background_image'>
+            <div id="digistar_desc">
+                <h1>DigiStar</h1>
+                <p>Viser les étoiles</p>
+            </div>
+        </div>
+    </section>
+
+    <section id='mission_section'>
+        <h1>Nos missions</h1>
+        <div id='mission_container'>
+            <p id='mission_child_1'>Nous sommes un petit groupe de développeurs et de développeuses qui ne se fixent
+                aucune limite. Nous voulons faire des applications qui vous font rêver et qui vous laissent la tête dans
+                les étoiles.</p>
+            <img src="/public/img/dev.jpg" alt="Petit astronaute" id='astronaute_img'>
+            <p id='mission_child_3'>Que ce soit sur un smartphone, tablette, ordinateur ou même smartwatch, nous voulons
+                vous donner les moyens d'accéder à nos outils où que vous soyez.</p>
         </div>
     </section>
 
     <section>
-        <h1>Nos missions</h1>
-        <div id='mission_desc'>
-            <p>Nous sommes un petit groupe de développeurs...</p>
-            <img src="/public/img/dev.jpg" alt="Petit astronaute">
-            <p>Que ce soit sur un smartphone...</p>
-        </div>
-    </section>
+        <div id='product_section'>
+            <h1>Nos produits</h1>
+            <div id='product_container'>
+                <div class='product_children'>
+                    <img src="/public/img/service1.jpg" alt="Fusées" class='product_img'>
+                    <p class='product_text'>Fusées</p>
+                    <p><a href="#" class='send_button'>Installer</a></p>
+                </div>
 
-    <section id='product_section'>
-        <h1>Nos produits</h1>
-        <div>
-            <img src="/public/img/service1.jpg" alt="Fusées">
-            <p>Fusées</p>
-            <input type="button" value='Installer'>
+                <div class='product_children'>
+                    <img src="/public/img/service2.jpg" alt="Satellites" class='product_img'>
+                    <p class='product_text'>Satellites</p>
+                    <p><a href="#" class='send_button'>Installer</a></p>
+                </div>
 
-            <img src="/public/img/service2.jpg" alt="Satellites">
-            <p>Satellites</p>
-            <input type="button" value='Installer'>
-
-            <img src="/public/img/service3.jpg" alt="Navettes spatiales">
-            <p>Navettes spatiales</p>
-            <input type="button" value='Installer'>
+                <div class='product_children'>
+                    <img src="/public/img/service3.jpg" alt="Navettes spatiales" class='product_img'>
+                    <p class='product_text'>Navettes spatiales</p>
+                    <p><a href="#" class='send_button'>Installer</a></p>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-        <div>
-            <p>Konexio</p>
-            <p>12 voie de la Lactée</p>
-            <p>72042 Terre</p>
-        </div>
+        <div id='footer_container'>
+            <div>
+                <p>Konexio - DigiStar</p>
+                <p>12 voie de la Lactée</p>
+                <p>72042 Terre</p>
+            </div>
 
-        <div>
-            <p>S'abonner</p>
-            <p>
-                <input type="text" placeholder="E-mail">
-                <input type="submit" value="M'inscrire">
-            </p>
+
+            <form action=" " method='POST'>
+                <div id='subscribe_style'>
+                    <p>S'abonner</p>
+                    <input type="text" placeholder="E-mail">
+                    <p><a href="#" class='subscribe_button'>M'inscrire</a></p>
+                </div>
+        </div>
+        </form>
+
         </div>
     </footer>
 
