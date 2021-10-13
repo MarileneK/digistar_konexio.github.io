@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+@font-face {
+    font-family: 'JosefinSans-SemiBold', 'JosefinSans-Light', sans-serif;
+    src: url('/public/fonts/JosefinSans-SemiBold.ttf') format('ttf');
+    src: url('/public/fonts/JosefinSans-Light.ttf') format('ttf');
+}
+
+body {
+    background-color: #e74c3c;
+    font-family: 'JosefinSans-Light';
+    color: white;
+    font-size: 12px;
+}
+
+/* HEADER + NAV SECTION */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header p {
+    font-family: 'JosefinSans-SemiBold';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nav_container {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/* BANNER SECTION */
+
+#background_image {
+    width: 100%;
+    height: 500px;
+}
+
+#digistar_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e74c3c;
+}
+
+#digistar_desc {
+    position: absolute;
+}
+
+#digistar_desc h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#digistar_desc p {
+    font-size: 14px;
+}
+
+/* MES MISSIONS SECTION */
+
+#mission_desc {
+    display: flex;
+    flex-direction: row;
+}
+
+#missions_desc h1 {
+    font-family: 'JosefinSans-SemiBold';
+    text-align: center;
+}
+
+
+/* MES PRODUITS SECTION */
+
+#product_section {
+    background-color: white;
+    color: black;
+}
