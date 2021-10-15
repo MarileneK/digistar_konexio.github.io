@@ -1,0 +1,3 @@
+for (let nb = 0; nb < 15; nb++) {
+  console.log(nb*2)
+}

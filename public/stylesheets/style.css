@@ -10,6 +10,10 @@ body {
     font-size: 12px;
 }
 
+input {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /* HEADER + NAV */
 
 header {
